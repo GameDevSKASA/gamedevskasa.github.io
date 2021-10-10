@@ -3,14 +3,12 @@
 
 body{
     background: radial-gradient(circle, rgba(23,27,235,1) 0%, rgb(25, 196, 96) 50%, rgb(16, 173, 171) 100%);
-    width: 100%;
-    height: auto;
 }
 
 div{
     font-family: Bebas Neue;
     text-align: center;
-    font-size: 65px;
+    font-size: 60px;
     color: rgb(231, 219, 197);
 }
 
