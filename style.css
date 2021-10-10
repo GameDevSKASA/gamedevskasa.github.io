@@ -3,7 +3,7 @@
 
 body{
     background: radial-gradient(circle, rgba(23,27,235,1) 0%, rgb(25, 196, 96) 50%, rgb(16, 173, 171) 100%);
-    background-size: 100% auto;
+    background-size: contain;
 }
 
 div{
