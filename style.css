@@ -17,11 +17,12 @@ i{
     font-family: Orbitron;
 }
 
-@media only screen and (max-width: 540px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-      background: linear-gradient(20deg, rgba(23,27,235,1) 0%, rgba(29,253,123,1) 50%, rgba(69,252,250,1) 100%);
-      background-repeat: no-repeat;
-      width: 100%;
-      font-size: 40px;
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+    body{
+        background: linear-gradient(20deg, rgba(23,27,235,1) 0%, rgba(29,253,123,1) 50%, rgba(69,252,250,1) 100%);
     }
+    div{
+        font-size: 40px;
+    }
+}
