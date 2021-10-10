@@ -2,6 +2,7 @@
 
 body{
     background: linear-gradient(90deg, rgba(23,27,235,1) 0%, rgba(29,253,123,1) 50%, rgba(69,252,250,1) 100%);
+    background-size: contain;
 }
 
 div{
