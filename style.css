@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
 
 body{
-    background: radial-gradient(circle, rgba(23,27,235,1) 0%, rgb(25, 196, 96) 50%, rgb(16, 173, 171) 100%);
+    background: linear-gradient(0deg, rgba(23,27,235,1) 0%, rgba(29,253,123,1) 50%, rgba(69,252,250,1) 100%);
     background-size: contain;
 }
 
