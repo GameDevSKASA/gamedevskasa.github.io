@@ -3,14 +3,14 @@
 
 body{
     background: radial-gradient(circle, rgba(23,27,235,1) 0%, rgb(25, 196, 96) 50%, rgb(16, 173, 171) 100%);
-    background-size: inherit;
+    background-size: contain;
 }
 
 div{
     font-family: Bebas Neue;
     text-align: center;
     font-size: 65px;
-    color: wheat;
+    color: rgb(231, 219, 197);
 }
 
 i{
@@ -22,7 +22,12 @@ i{
     body{
         background: linear-gradient(20deg, rgba(23,27,235,1) 0%, rgba(29,253,123,1) 50%, rgba(69,252,250,1) 100%);
     }
-    div{
+
+    h1{
+        font-size: 30px;
+    }
+
+    h3{
         font-size: 40px;
     }
 }
