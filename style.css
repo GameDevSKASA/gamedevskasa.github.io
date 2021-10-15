@@ -12,6 +12,7 @@ div{
     font-family: Bebas Neue;
     text-align: center;
     font-size: 60px;
+    display: contents;
 }
 
 h1,h3{
