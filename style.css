@@ -13,7 +13,7 @@ div{
     text-align: center;
     font-size: 60px;
     display: inline-block;
-    overflow: none;
+    align-items: center;
 }
 
 h1,h3{
