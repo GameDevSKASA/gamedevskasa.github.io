@@ -3,7 +3,7 @@
 
 body{   
     background: rgb(172,31,179);
-    background: linear-gradient(0deg, rgba(172,31,179,1) 0%, rgba(45,49,253,1) 100%);
+    background: linear-gradient(0deg, rgba(172,31,179,1) 0%, rgba(107,40,217,1) 33%, rgba(84,43,230,1) 70%, rgba(45,49,253,1) 100%);
 }
 
 div{
