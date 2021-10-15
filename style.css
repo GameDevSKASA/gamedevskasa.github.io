@@ -5,15 +5,13 @@ body{
     background: rgb(172,31,179);
     background: linear-gradient(0deg, rgba(172,31,179,1) 0%, rgba(107,40,217,1) 33%, rgba(84,43,230,1) 70%, rgba(45,49,253,1) 100%);
     background-size: cover;
-    display: inline-block;
+    display: inline;
 }
 
 div{
-    width: 100%;
     font-family: Bebas Neue;
     text-align: center;
     font-size: 60px;
-    justify-content: center;
 }
 
 h1,h3{
