@@ -9,7 +9,12 @@ div{
     font-family: Bebas Neue;
     text-align: center;
     font-size: 60px;
-    color: rgb(231, 219, 197);
+}
+
+h1,h3{
+    background: -webkit-linear-gradient(#1f38b3, #fdbb2d);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 i{
