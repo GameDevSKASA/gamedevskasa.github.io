@@ -13,7 +13,7 @@ div{
 }
 
 h1,h3{
-    background: -webkit-linear-gradient(#afa0e6, #dba7eb);
+    background: -webkit-linear-gradient(#bdb1eb, #dcb6e7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
