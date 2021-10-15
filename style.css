@@ -9,6 +9,7 @@ body{
 }
 
 div{
+    width: 100%;
     font-family: Bebas Neue;
     text-align: center;
     font-size: 60px;
