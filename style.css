@@ -13,13 +13,13 @@ div{
 }
 
 h1,h3{
-    background: -webkit-linear-gradient(#9e8be3, #d377ee);
+    background: -webkit-linear-gradient(#afa0e6, #dba7eb);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 h6{
-    background: -webkit-linear-gradient(#1d72ee, #da97e6);
+    background: -webkit-linear-gradient(#c9daf5, #d2b3d8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
