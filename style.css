@@ -1,32 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=M+PLUS+1:wght@200&family=Titillium+Web:wght@300&display=swap');
 
-body{   
-    background: rgb(172,31,179);
-    background: linear-gradient(0deg, rgba(172,31,179,1) 0%, rgba(107,40,217,1) 33%, rgba(84,43,230,1) 70%, rgba(45,49,253,1) 100%);
-    background-size: cover;
-    display: inline-block;
+body{
+    background-color: #3c3d41;
+    font-family: "Titillium Web";
+    margin: 0;
+    padding: 0;
 }
 
-div{
-    font-family: Bebas Neue;
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.container .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    font-size: 60px;
-    display: inline-block;
+    width: 700px;
+    height: 500px;
+    color: #c2e0bf;
 }
 
-h1,h3{
-    background: -webkit-linear-gradient(#d8d5e2, #bdb5db);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.container .text h2{
+    align-self: center;
+    position: relative;
+    text-align: center;
+    width: 28rem;
+    height: 10rem;
 }
 
-h6{
-    background: -webkit-linear-gradient(#c9daf5, #d2b3d8);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.container img{
+    height: 100%;
+    opacity: 0.6;
 }
 
-i{
-    font-family: Orbitron;
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #deb887;
+    border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 1rem;
+    background-color: #cbd0d4;
 }
