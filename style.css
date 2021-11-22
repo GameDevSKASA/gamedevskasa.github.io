@@ -22,7 +22,7 @@ body{
     text-align: center;
     width: 700px;
     height: 500px;
-    color: #c2e0bf;
+    color: #bfe0e0;
 }
 
 .container .text h2{
@@ -48,3 +48,34 @@ body{
     border-radius: 1rem;
     background-color: #cbd0d4;
 }
+
+@media only screen and (max-width: 900px) {
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+    }
+    
+    .text{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        color: #bfe0e0;
+    }
+    
+    .text h2{
+        margin: 4px;
+        align-self: center;
+        max-width: 40rem;
+    }
+    
+    img{
+        margin: 4px;
+        max-width: 37rem;
+        position: relative;
+        align-self: center;
+    }
+  }
